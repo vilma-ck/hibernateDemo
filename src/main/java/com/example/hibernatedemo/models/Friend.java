@@ -23,6 +23,12 @@ public class Friend {
 
  public Friend(){}
 
+ public Friend(String name, String email, String phoneNumber) {
+  this.name = name;
+  this.email = email;
+  this.phoneNumber = phoneNumber;
+ }
+
  public Friend(long id, String name, String email, String phoneNumber) {
   this.id = id;
   this.name = name;
